@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/04/2021, 4:42:00 PM
+    Author     : Hong Tan
+*/
+
+/* 
+    Created on : Mar 19, 2021, 10:28:00 AM
+    Author     : George
+*/
+body{
+    background: url("feit.jpg")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bar{
+    position: fixed;
+    background-color: green;
+    padding: 10px 5px 6px 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+}
+
+#links{
+    font-size: 18px;
+    padding: 5px;
+    word-spacing: 2px;
+    float: right;    
+}
+
+a:link, a:visited{
+    color:red;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 5px;    
+}
+a:hover, a:active{
+    background-color: lightskyblue;
+    color: black;
+}
+
+.foot{
+    position: fixed;
+    background-color: green;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 25px;
+    color: #afeb00;
+    padding: 3px;
+    text-align: center;
+    opacity: 0.7;
+}
+#m1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 55px; 
+}
